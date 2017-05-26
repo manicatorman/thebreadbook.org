@@ -1,0 +1,244 @@
+.creative-buttons{
+font-family: Roboto;
+font-size: 15px;
+font-weight: bold;
+margin-right: 7px;
+margin-top: 4px;
+color: white !important;}
+
+.conquest-image {
+box-shadow: 0px 10px 10px black; 
+border: solid;
+border-color: white;
+display: block;
+max-width: 200px;
+max-height: 200px;
+margin-left: auto;
+margin-right: auto; 
+margin-top: 50px;}
+
+.navbar{
+}
+
+.creative-buttons:hover{
+font-weight: bolder !important;}
+
+.creative-buttons:focus{
+color: #b33b3b !important;
+background-color: transparent !important;}
+
+.creative-buttons:after{
+background-color: transparent !important;}
+
+.creative-buttons:active{
+background-color: transparent !important;}
+
+li:hover{
+background-color: transparent !important;}
+
+.creative-menu:hover{
+background-color: transparent !important;
+color: #e3181c !important;}
+
+.footer_text{
+color: white;}
+
+.social-buttons{
+color: white;
+border-style: none;
+background-color: transparent;}
+
+.social-buttons:hover{
+color: black;}
+
+.flex-direction-nav .flex-next {
+background-position: 100% 0;
+right: 0px;
+}
+
+.flex-direction-nav .flex-prev {
+left: 0px;
+}
+
+.flexslider{
+border-style: none;}
+
+.btn-default:hover{
+color: white;
+background-color: #e3181c;}
+
+/* Fixing the modal shift bug */
+body.modal-open { overflow:inherit; padding-right:inherit !important; }
+
+.creative-logo{
+margin-top: -10px;
+margin-left: 20px;
+width: 120px;
+height: 70px;}
+
+.img-holder {
+    position: relative;
+}
+
+.img-thumbnail{
+border-style: solid !important;
+border-width: 2px !important;
+border-radius: 0px !important;
+padding: 0px !important;}
+
+.img-holder span{
+	vertical-align: middle;
+	position: absolute;
+	width: 100%;
+	color: white;
+	font-family: Roboto;
+	border-radius: 1px;
+	font-size: 20px;
+	display: block;
+	margin-left: 0;
+	background: rgba(228, 24, 27, 0.65);
+	text-align: center;
+	margin-top: -36px;
+	padding-bottom: 7px;
+	transition: 500ms;
+}
+
+.img-holder span:hover{
+margin-top: -79px;
+padding-bottom: 50px;}
+
+.quote-btn{
+font-weight: bold;
+font-size: 15px;
+display: block; 
+position: relative; 
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 27px;
+margin-bottom: 10px;
+background-color: #e3181c;
+color: white;}
+
+.quote-btn:hover{
+background-color: #3d3d3d;
+color: white;}
+
+.submit-btn{
+font-weight: bold;
+font-size: 15px;
+display: block; 
+position: relative; 
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 27px;
+margin-bottom: 10px;
+background-color: #e3181c;
+color: white;}
+
+.submit-btn:hover{
+background-color: white;
+color: #3d3d3d;}
+
+.modal-margin{
+margin-left: 40px;}
+
+.service-form{
+margin-left: 225px;
+margin-right: 250px;}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.resource-box{
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 5px;
+margin-top: 30px;
+display: block;
+margin-left: 0px;
+margin-right: 0px;
+border-style: solid;
+border-width: thin;
+border-radius: 2px;
+border-color: #3d3d3d;}
+
+.resource-text{
+color: #3d3d3d;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 400;
+margin-top: 10px;
+text-align: center;}
+
+/* Mobile Media Queries Below this Line */
+
+@media (max-width: 1140px){
+.service-form{
+margin: auto;}
+.creative-logo{
+margin-top: -17px;
+margin-left: 0;
+width: 80px;
+height: 50px;}
+.flexslider{
+margin-top: 50px !important;}
+.modal-margin{
+margin-left: 0px;}
+.quote-btn{
+margin-top: 3px;
+margin-bottom: 0px;
+font-size: 12px;}}
+
+/* Changing the Bootstrap navbar breakpoint */
+
+@media (max-width: 1140px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
