@@ -7,8 +7,6 @@ margin-top: 4px;
 color: white !important;}
 
 .conquest-image {
-box-shadow: 0px 10px 10px black; 
-border: solid;
 border-color: white;
 display: block;
 max-width: 200px;
@@ -18,7 +16,11 @@ margin-right: auto;
 margin-top: 50px;}
 
 .navbar{
+	box-shadow: 5px 0px 10px 1px #141414;
 }
+
+a:hover{
+text-decoration: none;}
 
 .creative-buttons:hover{
 color: #736d77 !important;}
@@ -49,7 +51,7 @@ border-style: none;
 background-color: transparent;}
 
 .social-buttons:hover{
-color: black;}
+color: #690c07;}
 
 .flex-direction-nav .flex-next {
 background-position: 100% 0;
@@ -71,13 +73,17 @@ background-color: #e3181c;}
 body.modal-open { overflow:inherit; padding-right:inherit !important; }
 
 .creative-logo{
-margin-top: -10px;
-margin-left: 20px;
-width: 120px;
-height: 70px;}
+margin-top: -15px;
+margin-left: -17px;
+width: 140px;
+height: 80px;}
 
 .img-holder {
     position: relative;
+}
+
+.img-holder2{
+position: relative;
 }
 
 .img-thumbnail{
@@ -91,21 +97,73 @@ padding: 0px !important;}
 	position: absolute;
 	width: 100%;
 	color: white;
-	font-family: Roboto;
+	font-family: Inika;
 	border-radius: 1px;
-	font-size: 20px;
+	font-size: 50px;
 	display: block;
 	margin-left: 0;
-	background: rgba(228, 24, 27, 0.65);
+	background: rgba(0, 0, 0, 0.65);
 	text-align: center;
-	margin-top: -36px;
-	padding-bottom: 7px;
+	margin-top: -90px;
+	padding-bottom: 17px;
 	transition: 500ms;
 }
 
 .img-holder span:hover{
-margin-top: -79px;
-padding-bottom: 50px;}
+margin-top: -170px;
+padding-bottom: 97px;}
+
+.img-holder2 span{
+	vertical-align: middle;
+	position: absolute;
+	width: 100%;
+	color: white;
+	font-family: Inika;
+	border-radius: 1px;
+	font-size: 25px;
+	display: block;
+	margin-left: 0;
+	background: rgba(0, 0, 0, 0.65);
+	text-align: center;
+	margin-top: -54px;
+	padding-bottom: 17px;
+	transition: 500ms;
+}
+
+.img-holder2 span:hover{
+margin-top: -110px;
+padding-bottom: 73px;}
+
+.conquest-btn{
+background-color: #141414;
+border-style: none;
+border-radius: 0px;
+margin: auto;
+display: block;
+margin-top: 20px;
+font-family: sans;
+font-size: 20px;
+}
+
+.conquest-btn2{
+background-color: #f1f1f1;
+color: #141414;
+border-style: none;
+border-radius: 0px;
+margin: auto;
+display: block;
+margin-top: 20px;
+font-family: sans;
+font-size: 20px;
+}
+
+.conquest-btn:hover{
+background-color: #690c07 !important;
+color: #f1f1f1;}
+
+.conquest-btn2:hover{
+background-color: #690c07 !important;
+color: #f1f1f1;}
 
 .quote-btn{
 font-weight: bold;
@@ -172,7 +230,7 @@ margin-top: 30px;
 display: block;
 margin-left: 0px;
 margin-right: 0px;
-border-style: solid;
+border-style: none;
 border-width: thin;
 border-radius: 2px;
 border-color: #3d3d3d;}
@@ -185,24 +243,96 @@ font-weight: 400;
 margin-top: 10px;
 text-align: center;}
 
+.side-image{
+float: right; 
+margin-top: -100px;
+margin-bottom: -30px;
+margin-right: -50px;}
+
+.side-image-left{
+float: right; 
+margin-top: -100px;
+margin-bottom: -30px;
+margin-left: -50px;
+}
+
+.black-row-top{
+background-color: #141414; 
+padding-top: 130px; 
+padding-bottom: 0px;
+box-shadow: 10px 5px 10px 2px;}
+
+.black-row{
+background-color: #141414; 
+padding-top: 40px; 
+margin-top: 40px;
+padding-bottom: 0px;
+box-shadow: 10px 5px 10px 2px;}
+
+.red-row{
+background-color: #c80c0c;
+margin-top: 40px; 
+padding-top: 40px; 
+padding-bottom: 0px;
+box-shadow: 10px 5px 10px 2px}
+
+.red-box{
+background-color: #c80c0c; 
+margin-top: -40px; 
+padding-top: 130px; 
+padding-bottom: 50px;
+box-shadow: 10px 5px 10px 2px;}
+
+.black-box{
+background-color: #141414; 
+margin-top: -40px; 
+padding-top: 130px; 
+padding-bottom: 50px;}
+
+.paragraph-text{
+text-shadow: 0 1px 4px rgba(0,0,0,0.1); 
+font-size: 20px; display: block; 
+text-align: justify; 
+color: white; 
+margin-bottom: 0px;
+margin-left: 20px;
+margin-right: 20px; 
+font-family: Raleway;}
+
 /* Mobile Media Queries Below this Line */
 
 @media (max-width: 1140px){
 .service-form{
 margin: auto;}
-.creative-logo{
-margin-top: -17px;
-margin-left: 0;
-width: 80px;
-height: 50px;}
 .flexslider{
 margin-top: 50px !important;}
+.creative-logo{
+	height: 60px;
+	width: 100px;
+	margin-top: -20px;
+}
+.side-image{
+	width: 300px;
+	height: 293px;
+	margin-top: 40px;
+}
 .modal-margin{
 margin-left: 0px;}
 .quote-btn{
 margin-top: 3px;
 margin-bottom: 0px;
 font-size: 12px;}}
+@media (max-width: 836px){
+.side-image{
+margin-right: -90px;
+margin-bottom: 60px;}}
+@media (max-width: 768px){
+.black-row-top{
+padding-bottom: 40px;}
+.black-row{
+.padding-bottom: 40px;}
+.red-row{
+padding-bottom: 40px;}}
 
 /* Changing the Bootstrap navbar breakpoint */
 
