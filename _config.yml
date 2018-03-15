@@ -1,0 +1,3 @@
+exclude:
+  - ".gitignore"
+  - "info.txt"

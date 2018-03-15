@@ -1,2 +1,4 @@
 # Linux backup files
 *~
+# jekyll _site directory
+_site/
